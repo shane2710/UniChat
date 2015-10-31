@@ -14,8 +14,8 @@ echo "Sending responses to confirm reception, and updating story..."
 
 echo "Backing up snaps...."
 
-cp -r ~/builds/UniChat/SC-API/src/snaps/turnuhboi/* /home/shane/builds/UniChat/save/ 2>/dev/null || :
+cp -r ~/builds/UniChat/SC-API/src/snaps/turnuhboi/* /home/shane/Pictures/save/ 2>/dev/null || :
 
-cp -r ~/builds/UniChat/SC-API/src/stories/turnuhboi/* /home/shane/builds/UniChat/save/ 2>/dev/null || :
+cp -r ~/builds/UniChat/SC-API/src/stories/turnuhboi/* /home/shane/Picture/save/ 2>/dev/null || :
 
 echo "Complete!"
