@@ -1,0 +1,57 @@
+#########################################
+# Infrared codes from cheap remote online
+# NEC(1) standard
+#########################################
+
+# Top Four Buttons
+
+power   = FF02FD
+skip    = FF827D
+b_down  = FFBA45
+b_up    = FF3AC5
+
+#########################################
+# Colors, starting w/ solid and moving
+# towards a lighter shade of that solid
+#########################################
+
+# Red
+r_1     = FF1AE5
+r_2     = FF2AD5
+r_3     = FF0AF5
+r_4     = FF38C7
+r_5     = FF18E7
+
+# Green
+g_1     = FF9A65
+g_2     = FFAA55
+g_3     = FF8A75
+g_4     = FFB847
+g_5     = FF9867
+
+# Blue
+b_1     = FFA25D
+b_2     = FF926D
+b_3     = FFB24D
+b_4     = FF7887
+b_5     = FF58A7
+
+# White
+w_1     = FF22DD
+w_2     = FF12ED
+w_3     = FF32CD
+w_4     = FFF807
+w_5     = FFD827
+
+
+############################
+# Other potentially useful
+# buttons, not all of them
+############################
+
+quick   = FFE817
+slow    = FFC837
+
+
+
+
