@@ -1,6 +1,6 @@
 <?php
 
-require_once("/home/shane/builds/UniChat/SC-API/src/snapchat.php");
+require_once("./SC-API/src/snapchat.php");
 
 //////////// CONFIG ////////////
 $username       = " "; // Your snapchat username
@@ -54,9 +54,9 @@ for ($i = 0; $i < count($receivedData); $i++) {
 }
 print_r($receivedUsers);
 
-$dir = "/home/shane/builds/UniChat/SC-API/src/";          
+$dir = "/SC-API/src/";          
                                                                        
-foreach (glob($dir ."snaps/turnuhboi/*/*") as $files) {            
+foreach (glob($dir ."snaps/*/*/*") as $files) {            
     $snapchat->setStory($files, 8);                                 
     // $snapchat->send($files, "ryan.shane");
     echo "$files size " . filesize($files) . "\n";                     
